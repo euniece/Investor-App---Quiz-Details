@@ -107,7 +107,7 @@ Future<String?> openDialog(BuildContext context) => showDialog<String> (
                     label: Text('Send'), // <-- Text
                     backgroundColor: Color.fromRGBO(5, 195, 107, 50),
                     icon: Icon( // <-- Icon
-                      Icons.download,
+                      Icons.send_outlined,
                       size: 18.0,
                     ),
                     onPressed: () {},
